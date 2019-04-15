@@ -1,0 +1,28 @@
+.docs-homescreen-container,
+.docs-homescreen-floater-header,
+.docs-homescreen-grid-header,
+.docs-homescreen-list-header,
+.docs-homescreen-list-item {
+  background-color: $background;
+  color: $white;
+}
+
+.docs-homescreen-list-item,
+.docs-homescreen-list-item-icon {
+  border-bottom-color: darken($light-black, 5%);
+}
+
+.docs-homescreen-list-item.goog-control-hover,
+.docs-homescreen-list-item.goog-control-focused {
+  background-color: lighten($background, 5%);
+  border-bottom-color: darken($light-black, 5%);
+  border-radius: 0;
+  outline: 0;
+}
+
+.docs-homescreen-google-material-update {
+  .docs-homescreen-item-overflow:hover,
+  .docs-homescreen-item-overflow:focus {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
